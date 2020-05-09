@@ -1,4 +1,5 @@
 {
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "homepage": "http://je-tech.github.io/react-app",
   "name": "my-app",
   "version": "0.1.0",

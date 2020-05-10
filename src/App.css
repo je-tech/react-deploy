@@ -45,11 +45,14 @@ display: flexbox;
     min-height: 5vh ;
   }
   .searchRecipe{
-    width:25%
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    width:25%;
 
   }
   ol{
-    min-height:5vh;
+    min-height:10vh;
     text-align: justify;
     justify-content: center;
     font-family: 'Times New Roman';
@@ -68,12 +71,7 @@ display: flexbox;
     
 
   
-  .img{
-    width:5000%;
-    height:100%;
-    
   
-  }
   
 
 
@@ -120,6 +118,12 @@ li{
   display: inline;
   margin:10px;
   
+}
+h3{
+color:#800000;
+  font-weight: normal;
+  font-size:20px;
+
 }
 
 

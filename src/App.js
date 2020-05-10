@@ -1,10 +1,11 @@
 import React,{useEffect,useState} from 'react';
 import Recipe from "./Recipes";
+import WebsitePicture from './img2/DELI.png';
 import './App.css';
 
 const App=()=>{
   
-
+ 
 
 const[querylink,noQuery]=useState('');
 
@@ -55,8 +56,8 @@ const[querylink,noQuery]=useState('');
 
 
     <div  className="RecipeApp">
-      
-     
+       <img src= {WebsitePicture} alt=" WebsitePicture"  />
+    
           <form  onSubmit={reqSearch}  className="AppForm"  > 
    
     <input className="searchRecipe" type="text" value={search}  onChange={Searchitem} />
@@ -64,7 +65,9 @@ const[querylink,noQuery]=useState('');
    
     </form>
     <nav>
+    
     <h1>Welcome to the Recipe App</h1>
+    <h3>Get your favourite food recipe from 1000+ recipes</h3>
         <ul>
           <li> <button class="btn"> Home </button></li> 
            <li> <button class="btn"> About  </button></li>

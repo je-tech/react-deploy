@@ -9,7 +9,7 @@ const Recipe= ({title,calories,image,ingredients}) =>{
             <h1>
                 {title}
             </h1>
-            <img src={image} alt=""/>
+            <img className={style.image} src={image} alt=""/>
 
             <p>Recipe</p>
             <ol>
